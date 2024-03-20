@@ -13,7 +13,7 @@ function App() {
   const [loading, setLoading] = useState(false);
 
   const openai = new OpenAI({
-    apiKey: "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",
+    // apiKey: "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",
     dangerouslyAllowBrowser: true,
   });
 
