@@ -5,15 +5,13 @@ import SendIcon from "@mui/icons-material/Send";
 import videoBackground from "./assets/common_background.mp4";
 import OpenAI from "openai";
 
-//api key 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
-
 function App() {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
   const [loading, setLoading] = useState(false);
 
   const openai = new OpenAI({
-    // apiKey: "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",
+    // apiKey: ,
     dangerouslyAllowBrowser: true,
   });
 
